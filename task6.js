@@ -12,9 +12,9 @@ var arr = [1,2,3,4];
 - Не разрашается использовать специальные методы массивов.
 */
 var arr = [1, 2, 3, 4];
-var counter = 0;
+var sum = 0;
 
-for (i in arr)
-    counter++;
+for (var i = 0; i < arr.length; i++)
+    sum += arr[i]
 
-console.log(counter);
+console.log(sum);
