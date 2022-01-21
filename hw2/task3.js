@@ -16,7 +16,7 @@ function f(a, b, c) {
         typeof c !== "number")
         throw new Error("Неверный тип аргументов функции")
     else
-        return (a - b) / 2
+        return (a - b) / c
 }
 
 console.log(f(9, 3, 2))
